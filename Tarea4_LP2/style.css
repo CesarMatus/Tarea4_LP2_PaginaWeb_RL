@@ -1,0 +1,110 @@
+nav.navbar{
+    background-color: #3db1d2 !important
+}
+
+body{
+    background-color: #000000;
+}
+  .navbar .navbar-nav .nav-link {
+    border-radius: .25rem;
+    margin: 0 0.25em;
+  }
+  .navbar .navbar-nav .dropdown-menu {
+    background-color: #3db1d2;
+    border-color: #2b75bb;
+  }
+
+  .navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
+  .navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
+  .navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+    color: #e9a513;
+    background-color: #2b75bb;
+  }
+  .navbar .navbar-nav .dropdown-menu .dropdown-divider {
+    border-top-color: #2b75bb;
+  }
+  .navbar .navbar-nav .nav-item.active .nav-link,
+  .navbar .navbar-nav .nav-item.active .nav-link:hover,
+  .navbar .navbar-nav .nav-item.active .nav-link:focus,
+  .navbar .navbar-nav .nav-item.show .nav-link,
+  .navbar .navbar-nav .nav-item.show .nav-link:hover,
+  .navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #e9a513;
+    background-color: #2b75bb;
+  }
+  .navbar .navbar-toggle {
+    border-color: #2b75bb;
+  }
+  .navbar .navbar-toggle:hover,
+  .navbar .navbar-toggle:focus {
+    background-color: #2b75bb;
+  }
+
+  .fotorl{
+      background-image: url("rl1.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%; 
+      position: relative;
+      overflow: hidden;
+  }
+
+.remarcar{
+    -webkit-text-stroke: 1px rgb(4, 0, 253);
+    color: #ff7b00
+}
+
+.centrar{
+    text-align: center; 
+    
+    float: none; 
+}
+
+.margenbtn{
+    margin: 5px;
+}
+
+.table{
+  margin-top: 5%;
+  max-width: 70%;
+}
+
+.txt{
+    font-family: cursive;
+}
+
+.btn{
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.margensuperior{
+    margin: 5%;
+}
+
+.letra{
+    color:white;
+}
+
+.encabezado{
+  border-radius: 15px;
+  background-color: #3d3d3d;
+  margin: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.formulario{
+  border-radius: 15px;
+  background-color: #696868;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#Explociones,
+#ruedas,
+#decals,
+#boost{
+  display: none; 
+}
